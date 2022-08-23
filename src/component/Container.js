@@ -51,7 +51,7 @@ const Container = ()=>{
 }
 
 
-fetchApi().catch(console.error, setCity(null));;
+fetchApi().catch(console.error);;
 
 
 
